@@ -19,6 +19,7 @@
     }
 
     .menuFixed {
+        display: block;
         background-color: var(--background_light);
         height: 100px;
         box-shadow: 2px 2px 2px black;
@@ -64,6 +65,26 @@
         background-color: var(--background_dark);
         color: var(--font_light);
         border-radius: 15px;
+    }
+
+    .language {
+        display: inline;
+        margin: auto;
+        position: absolute;
+        top: 105px;
+        right: 20px;
+    }
+
+    .language a {
+        background-color: var(--background_light);
+        color: var(--font_dark);
+        text-decoration: none;
+        padding: 5px 10px;
+        box-shadow: 2px 2px 2px black;
+    }
+
+    .language a:hover {
+        color: darkred;
     }
 
     .home h1 {

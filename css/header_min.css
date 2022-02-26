@@ -20,10 +20,22 @@
     color: darkred;
   }
 
+  #menuToggle .language {
+    display: inline;
+    font-size: 12px;
+    position: absolute;
+    top: 20%;
+    right: 10%;
+  }
+
+  .language a {
+    padding: 5px;
+  }
+
   #menuToggle img {
       position: absolute;
       width: 150px;
-      top: 20%;
+      top: 25%;
       right: 10%;
   }
 

@@ -15,6 +15,10 @@ body {
   font-family: 'Courier New', Courier, monospace;
 }
 
+.home {
+  height: 100vh;
+}
+
 /* ------- Keyframes ------- */
 
     /* Moving Cursor */
@@ -47,18 +51,18 @@ body {
 
 /* ------- Header ------- */
 
-.home h1 {
+.title_home h1 {
   margin-top: 36vh;
   text-align: center;
   font-size: 32px;
 }
 
-.home p {
+.title_home p {
   text-align: center;
   font-size: 12px;
 }
 
-.cursor {
+.cursor_home {
   display: block;
   position: absolute;
   text-align: center;
